@@ -21,12 +21,66 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_3E927D4ACB7DD5D643EB83097B7C58EF"
+        "OwnerKey" = "8:_5A469F632EB0F56C8BEDF8B11682D71B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3E927D4ACB7DD5D643EB83097B7C58EF"
+        "OwnerKey" = "8:_462485110D0B4607A0883D46C65307D2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3E927D4ACB7DD5D643EB83097B7C58EF"
+        "OwnerKey" = "8:_0D1B76EBFA744EEC8F6D5F50CAC664A1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3E927D4ACB7DD5D643EB83097B7C58EF"
+        "OwnerKey" = "8:_92D59C7140943BD4EF920BAA9CA8FABD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_462485110D0B4607A0883D46C65307D2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_5A469F632EB0F56C8BEDF8B11682D71B"
+        "OwnerKey" = "8:_0D1B76EBFA744EEC8F6D5F50CAC664A1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5A469F632EB0F56C8BEDF8B11682D71B"
+        "OwnerKey" = "8:_462485110D0B4607A0883D46C65307D2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_92D59C7140943BD4EF920BAA9CA8FABD"
+        "OwnerKey" = "8:_5A469F632EB0F56C8BEDF8B11682D71B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_92D59C7140943BD4EF920BAA9CA8FABD"
+        "OwnerKey" = "8:_462485110D0B4607A0883D46C65307D2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_92D59C7140943BD4EF920BAA9CA8FABD"
+        "OwnerKey" = "8:_0D1B76EBFA744EEC8F6D5F50CAC664A1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F2569EFEA1FE5865AC27494F5825BDDE"
         "OwnerKey" = "8:_0D1B76EBFA744EEC8F6D5F50CAC664A1"
         "MsmSig" = "8:_UNDEFINED"
@@ -47,6 +101,24 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_462485110D0B4607A0883D46C65307D2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5A469F632EB0F56C8BEDF8B11682D71B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_92D59C7140943BD4EF920BAA9CA8FABD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3E927D4ACB7DD5D643EB83097B7C58EF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -150,6 +222,99 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3E927D4ACB7DD5D643EB83097B7C58EF"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:NAudio, Version=1.8.4.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_3E927D4ACB7DD5D643EB83097B7C58EF"
+                    {
+                    "Name" = "8:NAudio.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:NAudio.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_96A4A170F4A64DFE9B274FCB17565575"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5A469F632EB0F56C8BEDF8B11682D71B"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DtbMerger2Library, Version=2.0.9.21986, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_5A469F632EB0F56C8BEDF8B11682D71B"
+                    {
+                    "Name" = "8:DtbMerger2Library.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:DtbMerger2Library.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_96A4A170F4A64DFE9B274FCB17565575"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_92D59C7140943BD4EF920BAA9CA8FABD"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:NAudio.Lame, Version=1.0.5.22475, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_92D59C7140943BD4EF920BAA9CA8FABD"
+                    {
+                    "Name" = "8:NAudio.Lame.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:NAudio.Lame.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_96A4A170F4A64DFE9B274FCB17565575"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F2569EFEA1FE5865AC27494F5825BDDE"
             {
             "AssemblyRegister" = "3:1"
@@ -237,15 +402,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DtbMerger2"
-        "ProductCode" = "8:{71BBC606-5B7A-45C8-A4E1-F832AB43AD21}"
-        "PackageCode" = "8:{7AC52B9B-D362-4769-846F-9FD3F11926B3}"
+        "ProductCode" = "8:{838A666D-FA1F-45BF-BEB4-055DAA62BDBF}"
+        "PackageCode" = "8:{4E2DE33C-EDDE-4904-83F3-7D92B4A868C0}"
         "UpgradeCode" = "8:{35AAFEF2-F9C9-4A63-9D02-7700203AC172}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:2.0.9"
+        "ProductVersion" = "8:2.0.10"
         "Manufacturer" = "8:Nota"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -773,7 +938,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0D1B76EBFA744EEC8F6D5F50CAC664A1"
             {
-            "SourcePath" = "8:..\\DtbMerger2MacroEditor\\obj\\Release\\DtbMerger2MacroEditor.exe"
+            "SourcePath" = "8:..\\DtbMerger2MacroEditor\\obj\\Debug\\DtbMerger2MacroEditor.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_96A4A170F4A64DFE9B274FCB17565575"
@@ -801,7 +966,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_462485110D0B4607A0883D46C65307D2"
             {
-            "SourcePath" = "8:..\\DtbMerger2\\obj\\Release\\DtbMerger2.exe"
+            "SourcePath" = "8:..\\DtbMerger2\\obj\\Debug\\DtbMerger2.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_96A4A170F4A64DFE9B274FCB17565575"
