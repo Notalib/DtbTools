@@ -121,27 +121,162 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="openMacroToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="openMacroToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="openMacroToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Open Macro</value>
+  </data>
+  <data name="saveMacroToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="saveMacroToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="saveMacroToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Save Macro</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
   <data name="fileToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+S</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 24</value>
+    <value>46, 26</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;File</value>
+  </data>
+  <data name="moveEntryUpToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Up</value>
+  </data>
+  <data name="moveEntryUpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="moveEntryUpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Move Entry &amp;Up</value>
+  </data>
+  <data name="moveEntryDownToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Down</value>
+  </data>
+  <data name="moveEntryDownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="moveEntryDownToolStripMenuItem.Text" xml:space="preserve">
+    <value>Move Entry &amp;Down</value>
+  </data>
+  <data name="moveEntryOutToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Left</value>
+  </data>
+  <data name="moveEntryOutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="moveEntryOutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Move Entry &amp;Out</value>
+  </data>
+  <data name="moveEntryInToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Right</value>
+  </data>
+  <data name="moveEntryInToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="moveEntryInToolStripMenuItem.Text" xml:space="preserve">
+    <value>Move Entry &amp;In</value>
+  </data>
+  <data name="moveEntriesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="moveEntriesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Move Entries</value>
+  </data>
+  <data name="reloadMacroEntriesToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+F5</value>
+  </data>
+  <data name="reloadMacroEntriesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="reloadMacroEntriesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Reload Macro Entries</value>
+  </data>
+  <data name="deleteEntryToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Del</value>
+  </data>
+  <data name="deleteEntryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="deleteEntryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete Entry</value>
+  </data>
+  <data name="addDTBToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Ins</value>
+  </data>
+  <data name="addDTBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="addDTBToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add DTB</value>
+  </data>
+  <data name="insertDTBToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+Ins</value>
+  </data>
+  <data name="insertDTBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="insertDTBToolStripMenuItem.Text" xml:space="preserve">
+    <value>Insert DTB</value>
+  </data>
+  <data name="undoToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Z</value>
+  </data>
+  <data name="undoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="undoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="redoToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Y</value>
+  </data>
+  <data name="redoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 26</value>
+  </data>
+  <data name="redoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Redo</value>
   </data>
   <data name="editToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+Z</value>
   </data>
   <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 24</value>
+    <value>49, 26</value>
   </data>
   <data name="editToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Edit</value>
   </data>
+  <data name="generateMergedDtbToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+G</value>
+  </data>
+  <data name="generateMergedDtbToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 26</value>
+  </data>
+  <data name="generateMergedDtbToolStripMenuItem.Text" xml:space="preserve">
+    <value>Generate Merged DTB</value>
+  </data>
   <data name="actionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 24</value>
+    <value>72, 26</value>
   </data>
   <data name="actionsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Actions</value>
@@ -150,7 +285,7 @@
     <value>0, 0</value>
   </data>
   <data name="mainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>899, 28</value>
+    <value>899, 30</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="mainMenuStrip.TabIndex" type="System.Int32, mscorlib">
@@ -171,377 +306,8 @@
   <data name="&gt;&gt;mainMenuStrip.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="openMacroToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+O</value>
-  </data>
-  <data name="openMacroToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 26</value>
-  </data>
-  <data name="openMacroToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Open Macro</value>
-  </data>
-  <data name="saveMacroToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+S</value>
-  </data>
-  <data name="saveMacroToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 26</value>
-  </data>
-  <data name="saveMacroToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Save Macro</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 6</value>
-  </data>
-  <data name="exitToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+F4</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 26</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Exit</value>
-  </data>
-  <data name="moveEntriesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="moveEntriesToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Move Entries</value>
-  </data>
-  <data name="moveEntryUpToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Up</value>
-  </data>
-  <data name="moveEntryUpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="moveEntryUpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Move Entry &amp;Up</value>
-  </data>
-  <data name="moveEntryDownToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Down</value>
-  </data>
-  <data name="moveEntryDownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="moveEntryDownToolStripMenuItem.Text" xml:space="preserve">
-    <value>Move Entry &amp;Down</value>
-  </data>
-  <data name="moveEntryOutToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Left</value>
-  </data>
-  <data name="moveEntryOutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="moveEntryOutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Move Entry &amp;Out</value>
-  </data>
-  <data name="moveEntryInToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Right</value>
-  </data>
-  <data name="moveEntryInToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="moveEntryInToolStripMenuItem.Text" xml:space="preserve">
-    <value>Move Entry &amp;In</value>
-  </data>
-  <data name="reloadMacroEntriesToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+F5</value>
-  </data>
-  <data name="reloadMacroEntriesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="reloadMacroEntriesToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Reload Macro Entries</value>
-  </data>
-  <data name="deleteEntryToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Del</value>
-  </data>
-  <data name="deleteEntryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="deleteEntryToolStripMenuItem.Text" xml:space="preserve">
-    <value>Delete Entry</value>
-  </data>
-  <data name="addDTBToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Ins</value>
-  </data>
-  <data name="addDTBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="addDTBToolStripMenuItem.Text" xml:space="preserve">
-    <value>Add DTB</value>
-  </data>
-  <data name="insertDTBToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+Ins</value>
-  </data>
-  <data name="insertDTBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="insertDTBToolStripMenuItem.Text" xml:space="preserve">
-    <value>Insert DTB</value>
-  </data>
-  <data name="undoToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Z</value>
-  </data>
-  <data name="undoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="undoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Undo</value>
-  </data>
-  <data name="redoToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Y</value>
-  </data>
-  <data name="redoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 26</value>
-  </data>
-  <data name="redoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Redo</value>
-  </data>
-  <data name="generateMergedDtbToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+G</value>
-  </data>
-  <data name="generateMergedDtbToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>283, 26</value>
-  </data>
-  <data name="generateMergedDtbToolStripMenuItem.Text" xml:space="preserve">
-    <value>Generate Merged DTB</value>
-  </data>
   <data name="mainTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
     <value>6</value>
-  </data>
-  <data name="&gt;&gt;cancelButton.Name" xml:space="preserve">
-    <value>cancelButton</value>
-  </data>
-  <data name="&gt;&gt;cancelButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cancelButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;cancelButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;undoButton.Name" xml:space="preserve">
-    <value>undoButton</value>
-  </data>
-  <data name="&gt;&gt;undoButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;undoButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;undoButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;redoButton.Name" xml:space="preserve">
-    <value>redoButton</value>
-  </data>
-  <data name="&gt;&gt;redoButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;redoButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;redoButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;addDTBButton.Name" xml:space="preserve">
-    <value>addDTBButton</value>
-  </data>
-  <data name="&gt;&gt;addDTBButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addDTBButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;addDTBButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;insertDTBButton.Name" xml:space="preserve">
-    <value>insertDTBButton</value>
-  </data>
-  <data name="&gt;&gt;insertDTBButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;insertDTBButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;insertDTBButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;saveMacro.Name" xml:space="preserve">
-    <value>saveMacro</value>
-  </data>
-  <data name="&gt;&gt;saveMacro.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveMacro.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;saveMacro.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;exitButton.Name" xml:space="preserve">
-    <value>exitButton</value>
-  </data>
-  <data name="&gt;&gt;exitButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;exitButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;exitButton.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;macroTreeView.Name" xml:space="preserve">
-    <value>macroTreeView</value>
-  </data>
-  <data name="&gt;&gt;macroTreeView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;macroTreeView.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;macroTreeView.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;propertiesDataGridView.Name" xml:space="preserve">
-    <value>propertiesDataGridView</value>
-  </data>
-  <data name="&gt;&gt;propertiesDataGridView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;propertiesDataGridView.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;propertiesDataGridView.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;openMacroButton.Name" xml:space="preserve">
-    <value>openMacroButton</value>
-  </data>
-  <data name="&gt;&gt;openMacroButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;openMacroButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;openMacroButton.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;moveEntryUpButton.Name" xml:space="preserve">
-    <value>moveEntryUpButton</value>
-  </data>
-  <data name="&gt;&gt;moveEntryUpButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;moveEntryUpButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;moveEntryUpButton.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;moveEntryOutButton.Name" xml:space="preserve">
-    <value>moveEntryOutButton</value>
-  </data>
-  <data name="&gt;&gt;moveEntryOutButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;moveEntryOutButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;moveEntryOutButton.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;deleteEntryButton.Name" xml:space="preserve">
-    <value>deleteEntryButton</value>
-  </data>
-  <data name="&gt;&gt;deleteEntryButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;deleteEntryButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;deleteEntryButton.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;moveEntryInButton.Name" xml:space="preserve">
-    <value>moveEntryInButton</value>
-  </data>
-  <data name="&gt;&gt;moveEntryInButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;moveEntryInButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;moveEntryInButton.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;moveEntryDownButton.Name" xml:space="preserve">
-    <value>moveEntryDownButton</value>
-  </data>
-  <data name="&gt;&gt;moveEntryDownButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;moveEntryDownButton.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;moveEntryDownButton.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;buildProgressBar.Name" xml:space="preserve">
-    <value>buildProgressBar</value>
-  </data>
-  <data name="&gt;&gt;buildProgressBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buildProgressBar.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;buildProgressBar.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;buildMessageLabel.Name" xml:space="preserve">
-    <value>buildMessageLabel</value>
-  </data>
-  <data name="&gt;&gt;buildMessageLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buildMessageLabel.Parent" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;buildMessageLabel.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="mainTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="mainTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 28</value>
-  </data>
-  <data name="mainTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="mainTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>899, 560</value>
-  </data>
-  <data name="mainTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;mainTableLayoutPanel.Name" xml:space="preserve">
-    <value>mainTableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;mainTableLayoutPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mainTableLayoutPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mainTableLayoutPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="mainTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cancelButton" Row="4" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="undoButton" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="redoButton" Row="3" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="addDTBButton" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="insertDTBButton" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="saveMacro" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="exitButton" Row="5" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="macroTreeView" Row="0" RowSpan="4" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="propertiesDataGridView" Row="0" RowSpan="1" Column="3" ColumnSpan="3" /&gt;&lt;Control Name="openMacroButton" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="moveEntryUpButton" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="moveEntryOutButton" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="deleteEntryButton" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="moveEntryInButton" Row="2" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="moveEntryDownButton" Row="3" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="buildProgressBar" Row="4" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="buildMessageLabel" Row="4" RowSpan="1" Column="2" ColumnSpan="3" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,100,Absolute,50,Absolute,50,Absolute,50,Absolute,50,Absolute,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="cancelButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -550,7 +316,7 @@
     <value>NoControl</value>
   </data>
   <data name="cancelButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 470</value>
+    <value>755, 468</value>
   </data>
   <data name="cancelButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -589,7 +355,7 @@
     <value>NoControl</value>
   </data>
   <data name="undoButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 420</value>
+    <value>457, 418</value>
   </data>
   <data name="undoButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -625,7 +391,7 @@
     <value>NoControl</value>
   </data>
   <data name="redoButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 420</value>
+    <value>755, 418</value>
   </data>
   <data name="redoButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -661,7 +427,7 @@
     <value>NoControl</value>
   </data>
   <data name="addDTBButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 320</value>
+    <value>457, 318</value>
   </data>
   <data name="addDTBButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -697,7 +463,7 @@
     <value>NoControl</value>
   </data>
   <data name="insertDTBButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 320</value>
+    <value>755, 318</value>
   </data>
   <data name="insertDTBButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -727,7 +493,7 @@
     <value>Fill</value>
   </data>
   <data name="saveMacro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 520</value>
+    <value>159, 518</value>
   </data>
   <data name="saveMacro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -757,7 +523,7 @@
     <value>Fill</value>
   </data>
   <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 520</value>
+    <value>755, 518</value>
   </data>
   <data name="exitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -790,7 +556,7 @@
     <value>3, 3</value>
   </data>
   <data name="macroTreeView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>441, 454</value>
+    <value>441, 452</value>
   </data>
   <data name="macroTreeView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -813,14 +579,23 @@
   <data name="ObjectColumn.HeaderText" xml:space="preserve">
     <value>Object</value>
   </data>
+  <data name="ObjectColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="ObjectColumn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="ObjectColumn.Width" type="System.Int32, mscorlib">
+    <value>125</value>
   </data>
   <metadata name="NameColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="NameColumn.HeaderText" xml:space="preserve">
     <value>Name</value>
+  </data>
+  <data name="NameColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="NameColumn.Width" type="System.Int32, mscorlib">
     <value>74</value>
@@ -831,6 +606,9 @@
   <data name="ValueColumn.HeaderText" xml:space="preserve">
     <value>Value</value>
   </data>
+  <data name="ValueColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="ValueColumn.Width" type="System.Int32, mscorlib">
     <value>73</value>
   </data>
@@ -840,8 +618,11 @@
   <data name="propertiesDataGridView.Location" type="System.Drawing.Point, System.Drawing">
     <value>450, 3</value>
   </data>
+  <data name="propertiesDataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
   <data name="propertiesDataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>446, 304</value>
+    <value>446, 302</value>
   </data>
   <data name="propertiesDataGridView.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -862,7 +643,7 @@
     <value>Fill</value>
   </data>
   <data name="openMacroButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 520</value>
+    <value>10, 518</value>
   </data>
   <data name="openMacroButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -895,7 +676,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="moveEntryUpButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>606, 320</value>
+    <value>606, 318</value>
   </data>
   <data name="moveEntryUpButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -928,7 +709,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="moveEntryOutButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 370</value>
+    <value>457, 368</value>
   </data>
   <data name="moveEntryOutButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -958,7 +739,7 @@
     <value>Fill</value>
   </data>
   <data name="deleteEntryButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>606, 370</value>
+    <value>606, 368</value>
   </data>
   <data name="deleteEntryButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -991,7 +772,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="moveEntryInButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 370</value>
+    <value>755, 368</value>
   </data>
   <data name="moveEntryInButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -1024,7 +805,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="moveEntryDownButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>606, 420</value>
+    <value>606, 418</value>
   </data>
   <data name="moveEntryDownButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -1057,7 +838,7 @@
     <value>NoControl</value>
   </data>
   <data name="buildProgressBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 470</value>
+    <value>10, 468</value>
   </data>
   <data name="buildProgressBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
@@ -1090,7 +871,7 @@
     <value>Fill</value>
   </data>
   <data name="buildMessageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>301, 460</value>
+    <value>301, 458</value>
   </data>
   <data name="buildMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>441, 50</value>
@@ -1116,6 +897,36 @@
   <data name="&gt;&gt;buildMessageLabel.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
+  <data name="mainTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mainTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="mainTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mainTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>899, 558</value>
+  </data>
+  <data name="mainTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mainTableLayoutPanel.Name" xml:space="preserve">
+    <value>mainTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;mainTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainTableLayoutPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mainTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cancelButton" Row="4" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="undoButton" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="redoButton" Row="3" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="addDTBButton" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="insertDTBButton" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="saveMacro" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="exitButton" Row="5" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="macroTreeView" Row="0" RowSpan="4" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="propertiesDataGridView" Row="0" RowSpan="1" Column="3" ColumnSpan="3" /&gt;&lt;Control Name="openMacroButton" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="moveEntryUpButton" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="moveEntryOutButton" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="deleteEntryButton" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="moveEntryInButton" Row="2" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="moveEntryDownButton" Row="3" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="buildProgressBar" Row="4" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="buildMessageLabel" Row="4" RowSpan="1" Column="2" ColumnSpan="3" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667,Percent,16,66667" /&gt;&lt;Rows Styles="Percent,100,Absolute,50,Absolute,50,Absolute,50,Absolute,50,Absolute,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
   <metadata name="mainToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>178, 17</value>
   </metadata>
@@ -1129,7 +940,7 @@
     <value>154</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>120, 120</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>899, 588</value>

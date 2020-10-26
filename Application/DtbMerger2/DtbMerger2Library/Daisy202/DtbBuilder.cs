@@ -8,6 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
 using NAudio.Lame;
@@ -543,8 +544,8 @@ namespace DtbMerger2Library.Daisy202
                     var audSeg = AudioSegmentsByAudioFileDictionary[audioFileName].First();
                     if (audSeg.AudioFileDuration < audSeg.ClipEnd)
                     {
-                        throw new InvalidOperationException(
-                            $"Audio segment clip-end {audSeg.ClipEnd} is beyond the end of audio file {audSeg.AudioFile}");
+                        MessageBox.Show($"Audio segment clip-end {audSeg.ClipEnd} in smil-file is beyond the end of audio file {audSeg.AudioFile}: ({audSeg.AudioFileDuration})", "Wrong clip-end in smil-file", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        audSeg.ClipEnd = audSeg.AudioFileDuration;
                     }
                     if (audSeg.AudioFileDuration < audSeg.ClipEnd.Add(AllowedFileEndAudio))
                     {
@@ -610,6 +611,7 @@ namespace DtbMerger2Library.Daisy202
                                 {
                                     var byteCount = (int)Math.Min(bytesToRead - totalBytesRead, buf.Length);
                                     var bytesRead = audioReader.Read(buf, 0, byteCount);
+                                    if (bytesRead == 0) break;
                                     totalBytesRead += bytesRead;
                                     audioStream.Write(buf, 0, bytesRead);
                                 }
