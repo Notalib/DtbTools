@@ -54,14 +54,13 @@ namespace DCSSynthesizer
         private static int? number;
         private static bool useDate = false;
         private static int bitrate = 32;
-        private static string uncRoot = @"\\smb-files\Temp\DCSSynthesizer";
-        private static string dcsServiceUri = "http://http-dcsarchive";
-        private static string defaultCreator = "Nota";
+        private static string uncRoot = @"\\smb-files.live.dbb.dk\Temp\DCSSynthesizer";
+        private static string dcsServiceUri = "http://http-dcsarchive.live.dbb.dk";
         private static bool forceOverwriteDCS = false;
-        private static bool useDCSPro = false;
         private static bool noCleanupOfTemp = false;
         private static bool skipUploadToArchive = false;
         private static ClientApi clientApi = null;
+        private static string dcsRoot;
 
         private static string DestPath => Path.Combine(uncRoot, destTitleNumber);
 
@@ -81,7 +80,7 @@ namespace DCSSynthesizer
             .Add("force", "Force overwriting destination DTB in DCS", s => forceOverwriteDCS = s != null)
             .Add("nocleanup", "Prevents cleanup of temp files, can be used for debug", s => noCleanupOfTemp = s != null)
             .Add("skipupload", "Create output but skips upload to arch. Can be used for debug", s => skipUploadToArchive = s != null)
-            .Add("usedcspro", "Use smb-dcspro in place of smb-dcsweb", s => useDCSPro = s != null);
+            .Add("dcsroot=", "The root of the DCS archive", s => dcsRoot = s);
 
         // Get a logger
         private static NotaLogger logger = NotaLogManager.GetCurrentClassLogger(null, "DCSSynthesizer");
@@ -210,7 +209,7 @@ namespace DCSSynthesizer
                 logger.Error($"Source title {sourceTitleNumber} has no DTB (Dtbook xml) item");
                 return -1;
             }
-            var sourceDir = title.DirectoriesAsList.Select(d => useDCSPro ? d.FullPath : d.WebFullPath).First();
+            var sourceDir = title.DirectoriesAsList.Select(d => Path.Combine(dcsRoot, d.Share.Name, d.RelPath)).First();
             if (!Directory.Exists(sourceDir))
             {
                 logger.Error($"Could not access source title at {sourceDir}");
@@ -231,8 +230,6 @@ namespace DCSSynthesizer
                 MaterialTypeCode = "DTB",
                 MaterialFormatCode = "D202",
                 TitleNo = destTitleNumber,
-                Title = Utils.GetMetaContent(ncc, "dc:title"),
-                Creator = Utils.GetMetaContent(ncc, "dc:creator") ?? defaultCreator,
                 MetadataFromDBBDokSys = false
             };
 

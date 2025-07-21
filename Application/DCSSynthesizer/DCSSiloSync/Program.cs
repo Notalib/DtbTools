@@ -207,9 +207,6 @@ namespace DCSSiloSync
                     MaterialTypeCode = sourceTitle.MaterialTypeCode,
                     MaterialFormatCode = sourceTitle.ItemsAsList.First().MaterialFormatCode,
                     TitleNo = sourceTitle.TitleNo,
-                    Title = sourceTitle.Title,
-                    Creator = sourceTitle.Creator,
-                    SubTitle = sourceTitle.Subtitle,
                     MetadataFromDBBDokSys = false
                 };
                 var existingTitle = await destClientApi.GetTitle(sourceTitle.TitleNo);
